@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #d3cce3, #e9e4f0);
+    color: #333;
+    padding: 20px;
+  }
+  
+
+  .profile-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  .profile-container:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #f8b500;
+    background-color: #fff;
+  }
+  
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #d61076;
+  }
+  
+
+  .bio {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+
+  .hobbies {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  
+
+  .hobbies li {
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    background-color: #fff9e6;
+    border-radius: 8px;
+    border-left: 5px solid #f8b500;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .hobbies li:hover {
+    background-color: #fff3c1;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 500px) {
+    .profile-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    .bio {
+      font-size: 0.95rem;
+    }
+  }
+  
